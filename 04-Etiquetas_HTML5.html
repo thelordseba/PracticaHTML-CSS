@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta cahrset="utf-8">         
+        <title>Blog de Sebastián</title>
+        
+
+        <!-- COMPATIBILIDAD CON INTERNET EXPLORER 6, 7 y 8. NOTA: hay que poner este código SIEMPRE último en head -->
+
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body>        
+        <!-- CABECERA -->
+        <header id="main-header">
+            <h2>Sebastía Truisi - <em>Full Stack Web</em></h2>
+
+            <nav>      <!-- Nav sirve para crear menus / barras de navegación -->
+                <ul>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Portfolio</a></li> 
+                    <li><a href="">Recursos</a></li>
+                    <li><a href="">Sobre mí</a></li>          
+                </ul>
+            </nav>
+
+        </header> <!-- #main-header -->
+
+        <!-- ENTRADA DEL BLOG / POST-->
+        <article class="post">
+
+            <section class="post-heading">
+                <h1>La mejor parte de mi trabajo</h1>
+                <div class="post-meta">
+                    <span>Publicado por Sebastián Truisi</span> | 
+                    <span> <time datetime="2021-3-3 12:34">marzo 3, 2021 a las 12:34 pm</time> </span> |
+                    <em>Tags: motivación</em>
+                </div> <!-- .post-meta -->
+            </section> <!-- .post-heading-->
+
+            <section class="post-body">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Veritatis tenetur modi odio inventore minus dignissimos eius in, 
+                    neque culpa odit mollitia ratione libero itaque soluta eos magni fugiat. 
+                    Quisquam, adipisci.
+                </p>
+                <p>Como dice JRR Tolkien: <q>El poder está en las mas simples y pequeñas cosas.</q></p>      <!-- <q> quote sirve para agregar una cita-->
+                   
+                <blockquote cite="https://www.psicoactiva.com/blog/frases-fantasticas-de-j-r-r-tolkien/"> <!-- Introduce citas largas / de varios párrafos-->
+                    <p>La fantasía es, como muchas otras cosas, 
+                        un derecho legítimo de todo ser humano, 
+                        pues a través de ella se halla una completa libertad y 
+                        satisfacción.
+                    </p>
+                </blockquote>
+            </section> <!-- .post-body -->
+
+            <footer class="post-footer">
+                <h3>Quizás te interesen:</h3>
+                <nav class="post-related">
+                    <ul>
+                        <li><a href="">El grandioso mundo de los cuentos.</a></li>
+                        <li><a href="">El libro rojo de la tierra media</a></li>
+                    </ul>
+                </nav> <!-- .post-related -->
+            </footer> <!-- .post-footer -->
+
+        </article> <!-- .post -->
+
+        <aside id="main-sidebar">      
+            <h4>Buscar</h4>      
+            <form>
+                <input type="text" placeholder="Palabra clave">
+                <input type="submit" value="Buscar">
+            </form>
+        </aside> <!-- #main-sidebar -->
+
+        <footer id="main-footer">
+            <p>&copy; Sebastián Truisi - Todos los derechos reservados</p>
+        </footer> <!-- #main-footer -->
+
+    </body>
+</html>

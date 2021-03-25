@@ -1,0 +1,39 @@
+header{
+    text-align: center  ;
+}
+
+#big-title{
+    font-size: 60px;
+    margin: 30px 0 0 0;
+}
+
+#subtitle{
+    font-style: italic;
+    margin: 0;
+}
+
+.destacado{
+    margin: 20px 60px;
+    padding: 30px 60px;
+    background-color: #ccc;
+}
+
+.destacado-title{
+    font-size: 30px;
+    margin: 0;
+}
+
+.destacado-excerpt{
+    font-size: 18px;
+}
+
+.news{
+    margin: 10px 60px;
+    padding: 20px 60px;
+    border: 1px solid #ccc;
+}
+
+.news-title{}
+
+.news-excerpt{}
+

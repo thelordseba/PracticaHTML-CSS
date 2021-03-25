@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta cahrset="utf-8">         
+        <title>Formularios en html</title>
+    </head>
+
+    <body>        
+        <form>
+            <fieldset>                                          <!-- Agrega un borde al rededor del formulario -->
+                <legend>Votar por tu serie favorita</legend>    <!-- Añade descipcion al fieldset -->
+                
+                <label>Nombre:</label>                
+                <input type='text' placeholder="Ej. Pedro">
+
+                <br><br>
+                <label>Email:</label>
+                <input type="email" placeholder="Ej. perdro@mimail.com">
+
+                <br><br>
+                <label>Password:</label>
+                <input type="password" placeholder="Ingrese password">
+
+                <br><br>
+                <label>Series</label><br>
+                <select>
+                    <option>Game of thrones</option>             <!-- DROP DAWN LIST -->
+                    <option>The Mandalotian</option>
+                    <option>La casa de papel</option>
+                    <option>Proyecto libro azul</option>
+                    <option>Desencanto</option>
+                    <option>Rick and Morty</option>
+                </select>              
+
+                <br><br>                               
+                <label>Ves muchas series?</label> <br>
+                <input type="radio" name="grupoSeries">Si <br>     <!-- RADIO GROUP -->
+                <input type="radio" name="grupoSeries">No 
+
+                <br><br>
+                <label>Desde donde la ves?</label> <br>
+                <input type="checkbox">Tv<br>                         <!-- CHECKBOX -->
+                <input type="checkbox">Celular<br>
+                <input type="checkbox">Computadora<br>
+
+                <br><br>
+                <label>Cuentanos por que gusta tanto esta serie:</label> <br>
+                <textarea rows="5" cols="80"></textarea>               <!-- TEXTAREA -->
+
+                <br><br>
+                <input type="submit" value="Enviar datos">
+                <input type="reset" value="Borrar formulario">
+
+            </fieldset>
+        </form>
+        
+        <p>Este concurso esta sometido a la siguientes <a href="bases.html">bases y condicones</a>, por favor leer antes de enviar</p>
+
+        <hr>
+
+        <p> &copy; Copyrigth 2021 | Tus Series Favoritas &amp;</p>
+
+    </body>
+</html>
