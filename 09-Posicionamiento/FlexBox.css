@@ -1,0 +1,40 @@
+#flexPadre{
+    width: 500px;
+    height: 400px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    display: flex;
+    position: relative;
+
+    align-items: center;
+    justify-content: center; 
+    /* flex-direction: column; */
+}
+
+.box{
+    background-color: white;
+    display: flex;
+    width: 150px;
+    height: 100px;    
+}
+
+#uno{
+    border: 2px dashed green;
+}
+
+#dos{
+    border: 2px dashed orange;
+    align-self: flex-start;
+}
+
+#tres{
+    border: 2px dashed blue;
+}
+
+#cuatro{
+    border: 2px dashed red;
+    align-self: flex-start;
+}
+

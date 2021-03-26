@@ -1,0 +1,50 @@
+
+.padre{
+    border: 2px black dotted;
+    display: inline-block;
+    position: relative;    
+}
+
+.box{
+    display: inline-block;
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+
+#uno{}
+
+#dos{
+    /*Absolute Toma en cuenta para el posicionamiento la posición del padre - Es necesario que la position del elemento padre sea DISTINTA a STATIC*/
+    /* position: absolute; */      
+    
+    /*Relative Toma en cuenta la posición del elemento mismo*/  
+    position: relative;            
+    top: 20px;
+    left: 20px;
+    background: green;
+}
+
+#tres{}
+
+#cuatro{}
+
+
+/* #ejemplo{    
+
+    display: none;
+
+    background-color: aquamarine;
+
+    position: fixed;
+    right: 0;        
+    bottom: 0; 
+
+    position: relative;
+    top: 10px;
+    left: 20px; 
+}
+
+#texto-relleno{
+    display: none;
+} */
